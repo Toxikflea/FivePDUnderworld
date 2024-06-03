@@ -57,7 +57,7 @@ jobs:
 
     env:
       Solution_Name: FivePDUnderworld.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: FivePDUnderworld/FivePDUnderworld.csproj, UnderworldCallouts/UnderworldCallouts.csproj, UnderworldServer/UnderworldServer.csproj              # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Test_Project_Path: FivePDUnderworld/FivePDUnderworld.csproj              # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
 
     steps:
     - name: Checkout
